@@ -42,7 +42,7 @@ This article assumes that you've already installed a CentOS (or similar derivati
 > [!NOTE]
 > _Cloud-init >= 21.2 removes the UDF requirement_. But without the UDF module enabled, the CD-ROM won't mount during provisioning, which prevents custom data from being applied. A workaround for this situation is to apply custom data by using user data. Unlike custom data, user data isn't encrypted. For more information, see [User data formats](https://cloudinit.readthedocs.io/en/latest/topics/format.html).
 
-## CentOS 6.x
+#### [CentOS 6.X](#tab/centos6)
 
 > [!IMPORTANT]
 >CentOS 6 has reached its EOL and is no longer supported by the CentOS community. No further updates or security patches will be released for this version, leaving it vulnerable to potential security risks. We strongly recommend that you upgrade to a more recent version of CentOS to ensure the safety and stability of your system. For further assistance, consult with your IT department or system administrator.
@@ -230,7 +230,7 @@ This article assumes that you've already installed a CentOS (or similar derivati
 
 1. Select **Action** > **Shut Down** in Hyper-V Manager. Your Linux VHD is now ready to be [uploaded to Azure](./upload-vhd.md#option-1-upload-a-vhd).
 
-## CentOS 7.0+
+#### [CentOS 7.X](#tab/centos7)
 
 Follow the steps in the next sections if you're using CentOS 7.0+.
 
